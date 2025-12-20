@@ -24,7 +24,7 @@ function First(){
 
                 <div className="flex flex-col items-center justify-between w-full max-w-290 h-93">
 
-                    <div className="flex flex-col items-center justify-between w-full max-w-290 h-51 border border-white">
+                    <div className="flex flex-col items-center justify-between w-full max-w-290 h-51">
                         <p className="w-full h-[15px] text-sm text-[#bb94e5] text-center font-semibold">YOUR NEW MARKETING WEBSITE</p>
                         <h1 className="w-full max-w-200 h-[158px] text-[68px] text-white text-center leading-none "> Let's Build Your Online Success Story </h1>
                     </div>
