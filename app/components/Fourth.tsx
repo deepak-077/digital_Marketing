@@ -1,7 +1,7 @@
 function Fourth(){
     return(
-        <div className="flex justify-center px-5 py-25">
-            <div className="flex justify-between items-center w-full max-w-300 h-143 ">
+        <div className="flex justify-center ">
+            <div className="flex justify-between items-center w-full max-w-300 h-185 px-5 py-25">
             
             {/* Left part */}
             <div className="flex flex-col justify-between w-full max-w-135 h-93">
