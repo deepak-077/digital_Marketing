@@ -7,6 +7,7 @@ import Fifth from "./components/Fifth";
 import Sixth from "./components/Sixth";
 import Seventh from "./components/Seventh";
 import Eighth from "./components/Eighth";
+import Ninth from "./components/Ninth";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Sixth/>
       <Seventh/>
       <Eighth/>
+      <Ninth/>
     </div>
   );
 }
