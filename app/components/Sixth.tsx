@@ -2,7 +2,7 @@ function Sixth(){
     return(
         <div className="flex justify-center bg-[url(/theme.jpg)] h-391 py-[150px] px-5">
 
-            <div className="w-full max-w-300 h-316">
+            <div className="flex flex-col justify-between w-full max-w-300 h-316">
 
                 {/* First component */}
                 <div className="w-full max-w-300 h-[94px] flex flex-col justify-between text-white">
