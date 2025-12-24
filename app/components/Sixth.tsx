@@ -25,18 +25,18 @@ function Sixth(){
                         {/* metrics */}
                         <div className="flex gap-7">
 
-                            <div className="h-[26px] flex gap-2 items-center">
+                            <div className="h-[26px] flex gap-2 items-center font-semibold">
                                 <img src="tick.png" alt="" className="size-5"/>
                                 <h5>900% increase in ROI</h5>
                             </div>
 
-                            <div className="h-[26px] flex gap-2 items-center">
+                            <div className="h-[26px] flex gap-2 items-center font-semibold">
                                 <img src="tick.png" alt="" className="size-5"/>
                                 <h5>40% decrease in CAC</h5>
                             </div>
                         </div>
 
-                        <div className="w-59 h-14 bg-[#6430C0] px-5 py-[18px]">
+                        <div className="w-59 h-14 bg-[#6430C0] px-5 py-[18px] flex items-center rounded-2xl">
                             <p className="text-[18px]">Read full case study - </p>
                         </div>
 
@@ -63,18 +63,18 @@ function Sixth(){
                         {/* metrics */}
                         <div className="flex gap-7">
 
-                            <div className="h-[26px] flex gap-2 items-center">
+                            <div className="h-[26px] flex gap-2 items-center font-semibold">
                                 <img src="tick.png" alt="" className="size-5"/>
                                 <h5>260% Increase in ROI</h5>
                             </div>
 
-                            <div className="h-[26px] flex gap-2 items-center">
+                            <div className="h-[26px] flex gap-2 items-center font-semibold">
                                 <img src="tick.png" alt="" className="size-5"/>
                                 <h5>90% Increase in ROAS</h5>
                             </div>
                         </div>
 
-                        <div className="w-59 h-14 bg-[#6430C0] px-5 py-[18px]">
+                        <div className="w-59 h-14 bg-[#6430C0] px-5 py-[18px] flex items-center rounded-2xl">
                             <p className="text-[18px]">Read full case study - </p>
                         </div>
                         
