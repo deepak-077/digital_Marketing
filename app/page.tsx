@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Second from "./components/Second";
 import Third from "./components/Third";
 import Fourth from "./components/Fourth";
+import Fifth from "./components/Fifth";
+import Sixth from "./components/Sixth";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <Second/>
       <Third/>
       <Fourth/>
+      <Fifth/>
+      <Sixth/>
     </div>
   );
 }
