@@ -26,12 +26,12 @@ function Sixth(){
                         <div className="flex gap-7">
 
                             <div className="h-[26px] flex gap-2 items-center">
-                                <img src="" alt="" className="size-5"/>
+                                <img src="tick.png" alt="" className="size-5"/>
                                 <h5>900% increase in ROI</h5>
                             </div>
 
                             <div className="h-[26px] flex gap-2 items-center">
-                                <img src="" alt="" className="size-5"/>
+                                <img src="tick.png" alt="" className="size-5"/>
                                 <h5>40% decrease in CAC</h5>
                             </div>
                         </div>
@@ -64,12 +64,12 @@ function Sixth(){
                         <div className="flex gap-7">
 
                             <div className="h-[26px] flex gap-2 items-center">
-                                <img src="" alt="" className="size-5"/>
+                                <img src="tick.png" alt="" className="size-5"/>
                                 <h5>260% Increase in ROI</h5>
                             </div>
 
                             <div className="h-[26px] flex gap-2 items-center">
-                                <img src="" alt="" className="size-5"/>
+                                <img src="tick.png" alt="" className="size-5"/>
                                 <h5>90% Increase in ROAS</h5>
                             </div>
                         </div>
@@ -86,17 +86,8 @@ function Sixth(){
                     </div>
                 </div>
 
-
-
-
             </div>
-
-            
-            
-
-
         </div>
     )
-
 }
 export default Sixth;
