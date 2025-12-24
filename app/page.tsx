@@ -5,6 +5,8 @@ import Third from "./components/Third";
 import Fourth from "./components/Fourth";
 import Fifth from "./components/Fifth";
 import Sixth from "./components/Sixth";
+import Seventh from "./components/Seventh";
+import Eighth from "./components/Eighth";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Fourth/>
       <Fifth/>
       <Sixth/>
+      <Seventh/>
+      <Eighth/>
     </div>
   );
 }

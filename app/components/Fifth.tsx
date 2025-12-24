@@ -18,7 +18,7 @@ const data=[
 
 function Fifth(){
     return(
-        <div className="flex  justify-center ">
+        <div className="flex justify-center ">
             <div className="flex flex-col justify-between items-center w-full max-w-300 h-191 px-5 pt-25 pb-[150px]">
             
             {/* Top part */}
