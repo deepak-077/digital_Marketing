@@ -20,7 +20,7 @@ export default function Home() {
       <Fourth/>
       <Fifth/>
       <Sixth/>
-      <Seventh/>
+      {/* <Seventh/> */}
       <Eighth/>
       <Ninth/>
       <Tenth/>

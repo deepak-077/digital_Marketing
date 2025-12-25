@@ -18,9 +18,9 @@ const faqs=[
 
 function Tenth(){
     return(
-        <div className="flex justify-center h-265">
+        <div className="flex justify-center h-265 bg-[#F8F8F9]">
 
-            <div className="flex flex-col justify-between items-center w-full max-w-300 h-265 py-[150px] px-5 bg-[#F8F8F9]">
+            <div className="flex flex-col justify-between items-center w-full max-w-300 h-265 py-[150px] px-5 ">
 
                 {/* First component */}
                 <div className="w-full max-w-153 h-35 flex flex-col justify-between">
