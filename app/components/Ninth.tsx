@@ -39,7 +39,7 @@ function Ninth(){
                 </div>
 
                 {/* Second component */}
-                <div className="w-265 h-164 flex justify-between bg-[#F8F8F9] p-[5px] rounded-4xl">
+                <div className="w-290 h-164 flex justify-between p-[5px] rounded-4xl">
                     
                     {plans.map((item,index)=>(    
                         <div className="w-full max-w-143 h-164 flex flex-col justify-between bg-[#F8F8F9] p-[5px] rounded-4xl ">
@@ -47,7 +47,7 @@ function Ninth(){
                             <div className="w-full h-105 flex flex-col justify-between bg-[#FFFFFF] p-[30px] rounded-4xl">
                                 <h3 className="text-[26px] font-semibold">{item.name}</h3>
                                 <p className="text-[18px]">{item.desc}</p>
-                                <h3 className="text-[44px] font-semibold">{item.monthly_price}</h3>
+                                <h3 className="text-[44px] font-semibold text-[#6430c0]">{item.monthly_price}</h3>
                                 <p className="text-[18px] font-semibold">{item.yearly_price}</p>
 
                                 <div className="w-full h-[118px] flex flex-col justify-between">
