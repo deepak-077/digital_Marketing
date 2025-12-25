@@ -8,6 +8,8 @@ import Sixth from "./components/Sixth";
 import Seventh from "./components/Seventh";
 import Eighth from "./components/Eighth";
 import Ninth from "./components/Ninth";
+import Tenth from "./components/Tenth";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <Seventh/>
       <Eighth/>
       <Ninth/>
+      <Tenth/>
+      <Footer/>
     </div>
   );
 }
