@@ -24,9 +24,9 @@ function Footer(){
                         <div className="flex flex-col gap-5">
                             <img src="raybanwhite.jpeg" alt="" className="w-30 h-10"/>
                             <p>Build a powerful agency site with Framer.</p>
-
                         </div>
                         <p>© Rhone. All rights reserved.</p>
+                        
                     </div>
 
 

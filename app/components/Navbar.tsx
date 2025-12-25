@@ -7,7 +7,7 @@ function Navbar(){
             <div className="flex justify-center items-center w-full max-w-300 h-20 px-2.5 py-6 ">
                 <nav className="flex justify-between items-center w-full max-w-295 h-[43px] px-2.5 py-6 ">
                     {/* logo */}
-                    <img src="abc.jpg" alt="logo" />
+                    <img src="raybanwhite.jpeg" alt="logo" className="w-30 h-10" />
 
                     {/* right component - menu */}
                     <div className="flex justify-between items-center w-full max-w-137 h-[43px]">
