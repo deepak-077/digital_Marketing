@@ -15,16 +15,16 @@ export default function Home() {
   return (
     <div>
       <Navbar/>
-      <Second/>
+      {/* <Second/>
       <Third/>
       <Fourth/>
       <Fifth/>
-      <Sixth/>
+      <Sixth/> */}
       {/* <Seventh/> */}
-      <Eighth/>
+      {/* <Eighth/>
       <Ninth/>
       <Tenth/>
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }

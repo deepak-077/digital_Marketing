@@ -1,7 +1,7 @@
 import First from "./First";
 function Navbar(){
     return(
-        <div className="flex flex-col items-center bg-[url('/theme.jpg')] bg-cover bg-center h-screen">
+        <div className="flex flex-col items-center bg-[url('/theme.jpg')] bg-cover bg-center h-[1445px] sm:h-300 md:h-231">
             
             {/* navbar */}
             <div className="flex justify-center items-center w-full max-w-300 h-20 px-2.5 py-6 ">
@@ -10,7 +10,7 @@ function Navbar(){
                     <img src="raybanwhite.jpeg" alt="logo" className="w-30 h-10" />
 
                     {/* right component - menu */}
-                    <div className="flex justify-between items-center w-full max-w-137 h-[43px]">
+                    <div className="hidden  md:flex justify-between items-center w-full max-w-137 h-[43px]">
 
                         <div className="flex justify-between items-center w-full max-w-94 h-[22.5px] text-[14px]  text-white font-semibold">
                             <p className="h-[22.5px]">
