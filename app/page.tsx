@@ -14,12 +14,12 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
-      <Navbar/>
-      {/* <Second/>
+      {/* <Navbar/> */}
+      {/* <Second/> */}
       <Third/>
-      <Fourth/>
-      <Fifth/>
-      <Sixth/> */}
+      {/* <Fourth/> */}
+      {/* <Fifth/> */}
+      {/* <Sixth/> */}
       {/* <Seventh/> */}
       {/* <Eighth/>
       <Ninth/>
