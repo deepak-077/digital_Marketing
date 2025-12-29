@@ -16,8 +16,8 @@ export default function Home() {
     <div>
       {/* <Navbar/> */}
       {/* <Second/> */}
-      <Third/>
-      {/* <Fourth/> */}
+      {/* <Third/> */}
+      <Fourth/>
       {/* <Fifth/> */}
       {/* <Sixth/> */}
       {/* <Seventh/> */}

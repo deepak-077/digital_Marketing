@@ -1,13 +1,13 @@
 function Fourth(){
     return(
         <div className="flex justify-center ">
-            <div className="flex justify-between items-center w-full max-w-300 h-185 px-5 py-25">
+            <div className="flex flex-col-reverse md:flex-row justify-between items-center w-full max-w-300 h-[904px] sm:h-full sm:max-h-[1160px] md:h-185 px-5  py-15 md:py-25">
             
             {/* Left part */}
-            <div className="flex flex-col justify-between w-full max-w-135 h-93">
+            <div className="flex flex-col w-full md:max-w-135 h-[464px] gap-3 sm:h-auto sm:gap-4 md:h-auto md:gap-5 lg:h-93">
                 <p className="w-full font-semibold text-[#6430c0]">DIGITAL MAGIC</p>
-                <h2 className="w-full text-[46px] font-semibold leading-none">Elevate Your Business with Our Marketing Expertise</h2>
-                <p className="">Our digital marketing agency is dedicated to transforming online potential into tangible success, 
+                <h2 className="w-full text-[32px] lg:text-[46px] font-semibold leading-none">Elevate Your Business with Our Marketing Expertise</h2>
+                <p className="text-[18px] md:text-[16px]">Our digital marketing agency is dedicated to transforming online potential into tangible success, 
                     offering a dynamic blend of creativity and strategic expertise to elevate your brand in the digital realm.</p>
 
                 <div className="flex justify-center w-51 px-5 py-[18px] bg-[#6430c0] rounded-2xl">
@@ -20,7 +20,7 @@ function Fourth(){
             </div>
 
             {/* right part */}
-            <img src="two.png" alt="" className="w-135 h-135 rounded-4xl"/>
+            <img src="two.png" alt="" className="w-auto md:w-[440px] lg:w-135 lg:h-135 rounded-4xl"/>
 
         </div>
 
