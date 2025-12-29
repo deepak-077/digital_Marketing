@@ -28,18 +28,18 @@ const plans=[
 
 function Ninth(){
     return(
-        <div className="flex justify-center h-265">
+        <div className="flex justify-center h-auto md:h-265">
 
-            <div className="flex flex-col justify-between items-center w-full max-w-300 h-265 py-[150px] px-5">
+            <div className="flex flex-col gap-3 md:justify-between items-center w-full max-w-300 h-auto md:h-265 px-2.5 py-25 md:py-[150px] md:px-5">
 
                 {/* First component */}
-                <div className="w-full max-w-153 h-35 flex flex-col justify-between">
+                <div className="w-full max-w-153 h-auto gap-2 px-2.5 md:px-0 md:h-35 flex flex-col md:justify-between">
                     <p className="text-[#6430C0] font-semibold text-center">PRICING</p>
-                    <h2 className="text-[42px] font-semibold text-center leading-tight">Plans to Fit Your Business</h2>
+                    <h2 className="text-[32px] sm:text-[36px] md:text-[42px] font-semibold text-center md:leading-tight">Plans to Fit Your Business</h2>
                 </div>
 
                 {/* Second component */}
-                <div className="w-290 h-164 flex justify-between p-[5px] rounded-4xl">
+                <div className="w-full lg:max-w-290 h-auto md:h-164 flex flex-col gap-5 md:flex-row  md:justify-between p-[5px] rounded-4xl">
                     
                     {plans.map((item,index)=>(    
                         <div className="w-full max-w-143 h-164 flex flex-col justify-between bg-[#F8F8F9] p-[5px] rounded-4xl ">

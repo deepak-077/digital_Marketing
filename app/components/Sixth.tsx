@@ -7,7 +7,7 @@ function Sixth(){
                 {/* First component */}
                 <div className="w-full max-w-300 h-[94px] flex flex-col justify-between text-white">
                     <p className="text-[#BB94E5] font-semibold text-center">SUCCESS STORIES</p>
-                    <h2 className="text-[44px] font-semibold text-center">Unveiling Our Digital Triumphs</h2>
+                    <h2 className="text-[32px] md:text-[36px] lg:text-[44px] font-semibold text-center">Unveiling Our Digital Triumphs</h2>
                 </div>
 
                 {/* Second component */}

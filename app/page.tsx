@@ -18,13 +18,13 @@ export default function Home() {
       {/* <Second/> */}
       {/* <Third/> */}
       {/* <Fourth/> */}
-      <Fifth/>
+      {/* <Fifth/> */}
       {/* <Sixth/> */}
       {/* <Seventh/> */}
-      {/* <Eighth/>
+      {/* <Eighth/> */}
       <Ninth/>
-      <Tenth/>
-      <Footer/> */}
+      {/* <Tenth/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
