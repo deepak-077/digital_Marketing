@@ -19,11 +19,13 @@ export default function Home() {
       {/* <Third/> */}
       {/* <Fourth/> */}
       {/* <Fifth/> */}
+
       {/* <Sixth/> */}
       {/* <Seventh/> */}
       {/* <Eighth/> */}
-      <Ninth/>
-      {/* <Tenth/> */}
+      
+      {/* <Ninth/> */}
+      <Tenth/>
       {/* <Footer/> */}
     </div>
   );
