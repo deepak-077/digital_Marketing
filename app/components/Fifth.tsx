@@ -30,7 +30,7 @@ function Fifth(){
             </div>
 
             {/* Bottom part */}
-            <div className="flex flex-col md:flex-row items-center gap-3 md:justify-between w-full max-w-290 h-auto lg:h-[334px]">
+            <div className="flex flex-col lg:flex-row items-center gap-3 md:justify-between w-full max-w-290 h-auto lg:h-[334px]">
                 {data.map((item,index)=>(
 
                     <div key={index} className="flex flex-col justify-between items-center shadow-xl w-full  md:max-w-94 h-[334px] p-[30px] rounded-3xl bg-[#f8f8f9]">

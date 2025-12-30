@@ -15,18 +15,23 @@ export default function Home() {
   return (
     <div>
       {/* <Navbar/> */}
+      
       {/* <Second/> */}
+      
       {/* <Third/> */}
       {/* <Fourth/> */}
+      
+      {/* fix the width */}
       {/* <Fifth/> */}
 
+      {/* not fixed */}
       {/* <Sixth/> */}
       {/* <Seventh/> */}
       {/* <Eighth/> */}
-      
+
       {/* <Ninth/> */}
-      <Tenth/>
-      {/* <Footer/> */}
+      {/* <Tenth/> */}
+      <Footer/>
     </div>
   );
 }
