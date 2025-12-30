@@ -14,27 +14,27 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       
       {/* <Second/> */}
       
-      {/* <Third/> */}
-      {/* <Fourth/> */}
+      <Third/>
+      <Fourth/>
       
       {/* fix the width */}
       {/* <Fifth/> */}
 
-      {/* not fixed */}
+      
       <Sixth/>
 
       {/* complete testimonial page */}
       {/* <Seventh/> */}
 
-      {/* <Eighth/> */}
+      <Eighth/>
 
-      {/* <Ninth/> */}
-      {/* <Tenth/> */}
-      {/* <Footer/> */}
+      <Ninth/>
+      <Tenth/>
+      <Footer/>
     </div>
   );
 }
