@@ -26,12 +26,15 @@ export default function Home() {
 
       {/* not fixed */}
       {/* <Sixth/> */}
+
+      {/* complete testimonial page */}
       {/* <Seventh/> */}
-      {/* <Eighth/> */}
+
+      <Eighth/>
 
       {/* <Ninth/> */}
       {/* <Tenth/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
