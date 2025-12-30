@@ -25,12 +25,12 @@ export default function Home() {
       {/* <Fifth/> */}
 
       {/* not fixed */}
-      {/* <Sixth/> */}
+      <Sixth/>
 
       {/* complete testimonial page */}
       {/* <Seventh/> */}
 
-      <Eighth/>
+      {/* <Eighth/> */}
 
       {/* <Ninth/> */}
       {/* <Tenth/> */}
