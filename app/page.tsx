@@ -20,22 +20,22 @@ export default function Home() {
       
       {/* <Second/> */}
       
-      {/* <Third/> */}
-      {/* <Fourth/> */}
+      <Third/>
+      <Fourth/>
       
       {/* fix the width */}
       {/* <Fifth/> */}
 
       
-      {/* <Sixth/> */}
+      <Sixth/>
 
       {/* complete testimonial page */}
       {/* <Seventh/> */}
 
-      {/* <Eighth/> */}
+      <Eighth/>
 
-      {/* <Ninth/>
-      <Tenth/> */}
+      <Ninth/>
+      <Tenth/>
       <Footer/>
     </div>
   );
