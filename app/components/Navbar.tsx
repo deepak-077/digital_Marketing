@@ -1,5 +1,11 @@
+"use client"
 import First from "./First";
+import Menu from "./Menu";
+import { useState } from "react";
+
 function Navbar(){
+    const [clicked,setClicked] = useState(false)
+
     return(
         <div className="flex flex-col items-center bg-[url('/theme.jpg')] bg-cover bg-center h-[1445px] sm:h-300 md:h-231">
             
@@ -35,6 +41,11 @@ function Navbar(){
                             </a>
                         </div>
                     </div>
+
+                    <div className="flex md:hidden" >
+                        <Menu/>
+                    </div>
+                    
                 </nav>
             </div>
             <First/>
