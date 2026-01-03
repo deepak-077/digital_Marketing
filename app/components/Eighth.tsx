@@ -1,29 +1,17 @@
-const cards=[
-    {
-        num:"$1M+",
-        desc:"Revenue Generated"
-    },
-    {
-        num:"200",
-        desc:"Happy Clients"
-    },
-    {
-        num:"340K",
-        desc:"In ad spending every month"
-    },
-    {
-        num:"425",
-        desc:"Worldwide locations"
-    },
+import { CountUpNumber,ScrollHighlightText } from "./Animation";
 
-]
-
+const cards = [
+  { num: 1, desc: "Revenue Generated", prefix: "$", suffix: "M+" },
+  { num: 200, desc: "Happy Clients" },
+  { num: 340, desc: "In ad spending every month", suffix: "K" },
+  { num: 425, desc: "Worldwide locations" },
+];
 
 function Eighth(){
     return(
-        <div className="flex justify-center h-auto md:h-268 bg-[#F8F8F9]">
+        <div className="flex justify-center h-auto md:h-250 bg-[#F8F8F9]">
 
-            <div className="flex flex-col gap-5 md:justify-between items-center w-full lg:max-w-300 h-auto md:h-268 py-15 md:py-[100px] px-5">
+            <div className="flex flex-col gap-5 md:justify-between items-center w-full lg:max-w-300 h-auto md:h-250 py-15 md:py-[100px] px-5">
 
                 {/* First component */}
                 <div className="w-full max-w-153 h-auto md:h-35 flex flex-col gap-4 md:justify-between">
@@ -40,9 +28,13 @@ function Eighth(){
                     {/* cards */}
                     {cards.map((item,index)=>(
                         
-                    <div className="w-full md:max-w-[278px] h-[150px] p-[30px] flex flex-col justify-between bg-[#ffffff] shadow-2xl rounded-3xl">
-                        <div className="text-[#6430C0] font-semibold text-center text-[40px]">{item.num}</div>
+                    <div className="w-full md:max-w-[278px] h-[150px] p-[30px] flex flex-col justify-between bg-[#ffffff] shadow-2xl rounded-3xl hover:scale-110">
+                        
+                        <div className="text-[#6430C0] font-semibold text-center text-[40px]">
+                            <CountUpNumber target={item.num} prefix={item.prefix} suffix={item.suffix} />
+                        </div>
                         <p className="text-[18px] md:text-[16px] text-center ">{item.desc}</p>
+                    
                     </div>
                     ))}
                 </div>
@@ -53,7 +45,11 @@ function Eighth(){
                     {/* left side */}
                     <div className="flex flex-col gap-4 md:justify-between w-full md:max-w-122.5 h-auto md:h-76 p-4 md:py-10 md:pl-5">
                         <img src="rayban.png" alt="" className="h-7 w-[140px]"/>
-                        <h3 className="text-[22px] md:text-[28px] leading-tight font-semibold">"Results-driven and a pleasure to work with. Our ROI tripled in just three months!"</h3>
+
+                        <ScrollHighlightText className="text-[22px] md:text-[28px] leading-tight font-semibold">
+                            "Results-driven and a pleasure to work with. Our ROI tripled in just three months!"
+                        </ScrollHighlightText>
+
                         <div className="flex gap-4 items-center">
                             <img src="jake.jpg" alt="" className="size-[54px] rounded-full" />
 

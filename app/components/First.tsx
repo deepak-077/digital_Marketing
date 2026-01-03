@@ -1,3 +1,6 @@
+"use client"
+import Typewriter from 'typewriter-effect';
+
 const data=[
     {
         img:"search1.png",
@@ -26,7 +29,16 @@ function First(){
 
                     <div className="flex flex-col items-center justify-between w-full max-w-290 h-[192px] sm:h-33 md:h-51">
                         <p className="w-full h-[15px] text-sm text-[#bb94e5] text-center font-semibold">YOUR NEW MARKETING WEBSITE</p>
-                        <h1 className="w-full max-w-200 h-[132px] sm:h-[88px] md:h-[158px] text-[38px] md:text-[68px] text-white text-center leading-tight "> Digital Ka Saath <br/> Aapke Business Ka Vikas </h1>
+                        <h1 className="w-full max-w-200 h-[132px] sm:h-[88px] md:h-[158px] text-[38px] md:text-[68px] text-white text-center leading-tight "> 
+                        <Typewriter options={{ 
+                            strings: [ "Digital Ka Saath <br/> Aapke Business Ka Vikas"],
+                            autoStart: true,
+                            loop: true,
+                            delay: 40,
+                            deleteSpeed: 30,
+                        }}
+                        />
+                        </h1>
                     </div>
 
                     <div className="flex flex-col items-center justify-between w-full max-w-125 h-[172px] sm:h-35 md:h-37">
@@ -43,7 +55,7 @@ function First(){
             {/* second component */}
             <div className="flex flex-col md:flex-row justify-between w-full max-w-300 h-[820px] sm:h-167 md:h-68 px-5">
             {data.map((item,index)=>(
-                <div className="flex flex-col justify-between text-white rounded-3xl bg-[#F8F8F91A] text-center w-full md:max-w-[374px] h-auto sm:h-51 md:h-68 p-5 md:p-[25px] ">
+                <div className="flex flex-col justify-between text-white rounded-3xl bg-[#F8F8F91A] text-center w-full md:max-w-[374px] h-auto sm:h-51 md:h-68 p-5 md:p-[25px] hover:scale-105 ">
                     
                     <div key={index} className="flex flex-col justify-between w-full md:max-w-81 h-[172px] sm:h-[140px] md:h-43">
                         <div className="flex flex-col justify-between items-center w-full md:max-w-81 h-[85px]">
