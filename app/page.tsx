@@ -12,10 +12,11 @@ import Tenth from "./components/Tenth";
 import Footer from "./components/Footer";
 import MouseFollow from "./components/Mouse";
 
+
 export default function Home() {
   return (
     <div>
-      <MouseFollow/>
+      {/* <MouseFollow/> */}
       <Navbar/>
       
       {/* <Second/> */}
