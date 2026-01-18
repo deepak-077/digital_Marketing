@@ -11,12 +11,14 @@ import Ninth from "./components/Ninth";
 import Tenth from "./components/Tenth";
 import Footer from "./components/Footer";
 import { MouseFollow } from "./components/Animation";
+import About from "./components/AboutUs";
 
 
 export default function Home() {
   return (
     <div>
       <MouseFollow/>
+      {/* <About/> */}
       <Navbar/>
       
       {/* <Second/> */}
