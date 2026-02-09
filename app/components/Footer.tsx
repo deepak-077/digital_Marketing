@@ -29,8 +29,6 @@ function Footer(){
                         
                     </div>
 
-
-
                     {/* pages */}
                 <div className="flex flex-col justify-between w-56 h-59 items-center md:items-start">
                     <h5 className="text-[22px] md:text-[19px] font-semibold">Pages</h5>
@@ -66,18 +64,8 @@ function Footer(){
 
                 </div>
 
-                
-
-                
-
             </div>
-
-
-
             </div>
-            
-            
-
         </div>
     )
 }

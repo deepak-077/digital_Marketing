@@ -1,3 +1,5 @@
+"use client"
+
 import { CountUpNumber,ScrollHighlightText } from "./Animation";
 
 const cards = [

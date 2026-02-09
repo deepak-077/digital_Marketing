@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <MouseFollow/>
-      {/* <About/> */}
+      <About/>
       <Navbar/>
       
       {/* <Second/> */}

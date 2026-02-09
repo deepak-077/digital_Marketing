@@ -1,3 +1,5 @@
+"use client"
+
 import { ScrollHighlightText } from "./Animation"
 function Third(){
     return(
