@@ -2,12 +2,13 @@
 import First from "./First";
 import Menu from "./Menu";
 import { useState } from "react";
+import Link from "next/link";
 
 function Navbar(){
     const [clicked,setClicked] = useState(false)
 
     return(
-        <div className="flex flex-col items-center bg-[url('/theme.jpg')] bg-cover bg-center h-[1445px] sm:h-300 md:h-231">
+        <div className="flex flex-col items-center h-20 bg-black">
             
             {/* navbar */}
             <div className="flex justify-center items-center w-full max-w-300 h-20 px-2.5 py-5 ">
@@ -20,16 +21,16 @@ function Navbar(){
 
                         <div className="flex justify-between items-center w-full max-w-94 h-[26.5px] text-[14px]  text-white font-semibold">
                             <p className="h-[22.5px]">
-                                <a href="#" className="h-[18px]"> Home </a>
+                                <Link href="/" className="h-[18px]"> Home </Link>
                             </p>
                             <p className="h-[22.5px]">
-                                <a href="#" className="h-[18px]"> Services </a>
+                                <Link href="/services" className="h-[18px]"> Services </Link>
                             </p>
                             <p className="h-[22.5px]">
-                                <a href="#" className="h-[18px]"> About Us </a>
+                                <Link href="/about" className="h-[18px]"> About Us </Link>
                             </p>
                             <p className="h-[22.5px]">
-                                <a href="#" className="h-[18px]"> Contact </a>
+                                <Link href="/contact" className="h-[18px]"> Contact </Link>
                             </p>
 
                         </div>
@@ -48,7 +49,7 @@ function Navbar(){
                     
                 </nav>
             </div>
-            <First/>
+
 
         </div>
 

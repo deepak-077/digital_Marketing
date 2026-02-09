@@ -21,7 +21,7 @@ const data=[
 
 function First(){
     return(
-        <div className="flex flex-col w-full items-center">
+        <div className="flex flex-col w-full items-center bg-[url('/theme.jpg')] bg-cover bg-center h-[1365px] sm:h-300 md:h-231">
             {/* first component */}
             <div className="flex  justify-center w-full max-w-300 h-[464px] sm:h-94 md:h-123 py-10 md:py-15 px-5">
 

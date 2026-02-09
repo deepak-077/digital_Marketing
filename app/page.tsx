@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import First from "./components/First";
 import Second from "./components/Second";
 import Third from "./components/Third";
 import Fourth from "./components/Fourth";
@@ -11,16 +12,15 @@ import Ninth from "./components/Ninth";
 import Tenth from "./components/Tenth";
 import Footer from "./components/Footer";
 import { MouseFollow } from "./components/Animation";
-import About from "./components/AboutUs";
+
 
 
 export default function Home() {
   return (
     <div>
       <MouseFollow/>
-      <About/>
-      <Navbar/>
-      
+      <First/>
+
       {/* <Second/> */}
       
       <Third/>
@@ -39,7 +39,7 @@ export default function Home() {
 
       <Ninth/>
       <Tenth/>
-      <Footer/>
+      
     </div>
   );
 }
