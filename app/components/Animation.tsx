@@ -87,6 +87,10 @@ export const ScrollHighlightText: React.FC<ScrollHighlightTextProps> = ({
   return (
     <div ref={containerRef} className={`inline ${className} leading-relaxed`}>
       {letters.map((letter, i) => {
+
+        if (letter === "\n") {
+        return <span key={i} className="block h-1.5" />;
+      }
         const opacity =
           i < highlightCount
             ? 1

@@ -5,7 +5,6 @@ import Footer from "../components/Footer"
 function AboutPage(){
     return(
         <div>
-            
             <Theme/>
             <Story/>
             
