@@ -4,12 +4,12 @@ export default function Story(){
         <div className=" flex flex-col items-center justify-center w-full h-auto md:h-[928px] text-black px-4 md:px-6">
                 <h1 className="text-[36px] md:text-[46px] text-sm text-center font-semibold pb-10 md:pb-6">Our Story(so far)</h1>
 
-                <div className="flex flex-col md:flex-row justify-between w-full max-w-[1024px] h-auto md:h-[720px] ">
+                <div className="flex flex-col md:flex-row justify-between w-full max-w-[1124px] h-auto md:h-[720px] md:mt-10" >
 
                     {/* left side - image */}
 
-                    <div className="size-112 flex justify-center items-center mb-10">
-                        <img className="w-[300px] h-[212px] sm:w-[440px] sm:h-[308px]  md:w-[438px] md:h-[308px] rounded-xl -rotate-12" src="team.jpg" alt="" />
+                    <div className="w-[300px] h-[212px] sm:w-[440px] sm:h-[308px]  md:w-[448px] md:h-[308px] flex justify-center items-center mb-10">
+                        <img className="w-full rounded-xl -rotate-12" src="team.jpg" alt="" />
     
                     </div>
 
