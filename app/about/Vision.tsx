@@ -28,11 +28,11 @@ const cards=[
 
 export default function Vision(){
     return(
-        <div className="flex justify-center items-center w-full h-[1150px]">
-            <div className="grid grid-cols-3 gap-x-8 w-full max-w-[1260px] h-[1070px] p-[10px]">
+        <div className="flex justify-center items-center w-full h-[1070px] bg-[#ffffff] ">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 w-full max-w-[1260px] h-[950px] p-[10px]">
                 {cards.map((item,index)=>(
-                    <div className="w-full max-w-[412px] h-[412px] p-[10px] border rounded-4xl">
-                        <div className="flex flex-col w-full max-w-[382px] h-[442px] p-[40px]">
+                    <div className="w-full max-w-[300px] h-[400px] md:max-w-[412px] h-[412px] p-[10px] border rounded-4xl shadow-2xl hover:scale-105">
+                        <div className="flex flex-col w-full md:max-w-[382px] md:h-[482px] p-7 md:p-[40px]">
                             <div className="size-[80px]">
                                 <img src={item.img} alt="" />
                             </div>
@@ -50,7 +50,6 @@ export default function Vision(){
                 ))}
 
             </div>
-
 
         </div>
     )
