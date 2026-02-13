@@ -28,9 +28,9 @@ const faqs=[
 ]
 
 function Tenth(){
-    const [openIndex,setOpenIndex]=useState(null)
+    const [openIndex, setOpenIndex] = useState<number | null>(null)
 
-    function handleOpen(index){
+    function handleOpen(index:number){
         setOpenIndex(prev =>(prev===index ?null :index))
     }
 
@@ -62,7 +62,7 @@ function Tenth(){
                                 </div>
 
                                 {openIndex === index && (
-                                    <div onClick={handleOpen} className={`flex gap-3 sm:gap-4 md:gap-5 items-center bg-[#FFFFFF] rounded-2xl p-5 ${openIndex === index? "duration-300 transform-y-10":"transform-y-0"}`}>
+                                    <div onClick={()=>handleOpen(index)} className={`flex gap-3 sm:gap-4 md:gap-5 items-center bg-[#FFFFFF] rounded-2xl p-5 ${openIndex === index? "duration-300 transform-y-10":"transform-y-0"}`}>
                                         {item.desc}
                                     </div>
                                 )}
