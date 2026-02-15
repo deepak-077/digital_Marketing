@@ -37,7 +37,7 @@ function Footer(){
                     <Link href="/services">Services</Link>
                     <Link href="/about">About Us</Link>
                     <Link href="/contact">Contact </Link>
-                    <Link href="/error">Careers</Link>
+                    <Link href="/careers">Careers</Link>
                 </div>
 
                 <div className="flex flex-col gap-4 w-56 h-auto md:h-59 items-center md:items-start">
@@ -66,11 +66,11 @@ function Footer(){
 
                 <div className="flex flex-col justify-between w-56 h-59 items-center md:items-start">
                     <h5 className="text-[22px] md:text-[19px] font-semibold">Legals</h5>
-                    <Link href="/">Privacy Policy</Link>
-                    <Link href="/services">Refund Policy</Link>
-                    <Link href="/about">Terms & Conditions</Link>
-                    <Link href="/contact">Disclaimer </Link>
-                    <Link href="/error">FAQs</Link>
+                    <Link href="/privacy">Privacy Policy</Link>
+                    <Link href="/refund">Refund Policy</Link>
+                    <Link href="/conditions">Terms & Conditions</Link>
+                    <Link href="/disclaimer">Disclaimer </Link>
+                    <Link href="/faq">FAQs</Link>
                 </div>
 
                 <div className="w-56  h-auto md:h-59 flex flex-col gap-4 items-center md:items-start">
