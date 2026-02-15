@@ -1,4 +1,5 @@
 "use client"
+
 import First from "./First";
 import Menu from "./Menu";
 import { useState } from "react";
@@ -17,20 +18,26 @@ function Navbar(){
                     <img src="gda_logo.png" alt="logo" className="w-40 h-35 rounded-full" />
 
                     {/* right component - menu */}
-                    <div className="hidden  md:flex justify-between items-center w-full max-w-137 h-[47px]">
+                    <div className="hidden  md:flex justify-between items-center w-full max-w-167 h-[47px] ">
 
-                        <div className="flex justify-between items-center w-full max-w-94 h-[26.5px] text-[14px]  text-white font-semibold">
+                        <div className="flex justify-between gap-3 items-center w-full max-w-124 h-[26.5px] text-[14px] text-white font-semibold">
                             <p className="h-[22.5px]">
-                                <Link href="/" className="h-[18px]"> Home </Link>
+                                <Link href="/" className="h-[18px]">HOME</Link>
                             </p>
                             <p className="h-[22.5px]">
-                                <Link href="/services" className="h-[18px]"> Services </Link>
+                                <Link href="/about" className="h-[18px]">ABOUT US</Link>
                             </p>
                             <p className="h-[22.5px]">
-                                <Link href="/about" className="h-[18px]"> About Us </Link>
+                                <Link href="/services" className="h-[18px]">SERVICES</Link>
                             </p>
                             <p className="h-[22.5px]">
-                                <Link href="/contact" className="h-[18px]"> Contact </Link>
+                                <Link href="/training" className="h-[18px]">TRAINING</Link>
+                            </p>
+                            <p className="h-[22.5px]">
+                                <Link href="/blog" className="h-[18px]">BLOG</Link>
+                            </p>
+                            <p className="h-[22.5px]">
+                                <Link href="/contact" className="h-[18px]">CONTACT US</Link>
                             </p>
 
                         </div>
@@ -49,8 +56,6 @@ function Navbar(){
                     
                 </nav>
             </div>
-
-
         </div>
 
     )

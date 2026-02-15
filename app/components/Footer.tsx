@@ -32,12 +32,12 @@ function Footer(){
 
                     {/* pages */}
                 <div className="flex flex-col justify-between w-56 h-59 items-center md:items-start">
-                    <h5 className="text-[22px] md:text-[19px] font-semibold">Pages</h5>
+                    <h5 className="text-[22px] md:text-[19px] font-semibold">Company</h5>
                     <Link href="/">Home</Link>
                     <Link href="/services">Services</Link>
                     <Link href="/about">About Us</Link>
                     <Link href="/contact">Contact </Link>
-                    <Link href="/error">404</Link>
+                    <Link href="/error">Careers</Link>
                 </div>
 
                 <div className="flex flex-col gap-4 w-56 h-auto md:h-59 items-center md:items-start">
@@ -62,6 +62,15 @@ function Footer(){
                     </div>
 
 
+                </div>
+
+                <div className="flex flex-col justify-between w-56 h-59 items-center md:items-start">
+                    <h5 className="text-[22px] md:text-[19px] font-semibold">Legals</h5>
+                    <Link href="/">Privacy Policy</Link>
+                    <Link href="/services">Refund Policy</Link>
+                    <Link href="/about">Terms & Conditions</Link>
+                    <Link href="/contact">Disclaimer </Link>
+                    <Link href="/error">FAQs</Link>
                 </div>
 
                 <div className="w-56  h-auto md:h-59 flex flex-col gap-4 items-center md:items-start">

@@ -47,12 +47,12 @@ function Menu() {
 
       <div className="flex flex-col items-center">
       
-      
-      <button className="p-3 text-gray-500 w-full font-semibold text-[20px]">Home</button>
-      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">Services</button>
-      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">Case Studies</button>
-      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">Contact</button>
-
+      <button className="p-3 text-gray-500 w-full font-semibold text-[20px]">HOME</button>
+      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">ABOUT US</button>
+      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">SERVICES</button>
+      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">TRAINING</button>
+      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">BLOG</button>
+      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">CONTACT US</button>
 
       </div>    
 
