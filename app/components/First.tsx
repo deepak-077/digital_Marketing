@@ -1,5 +1,6 @@
 "use client"
 import Typewriter from 'typewriter-effect';
+import Link from 'next/link';
 
 const data=[
     {
@@ -28,7 +29,7 @@ function First(){
                 <div className="flex flex-col items-center justify-between w-full max-w-290 h-[384px] sm:h-[296px] md:h-93">
 
                     <div className="flex flex-col items-center justify-between w-full max-w-290 h-[192px] sm:h-33 md:h-51">
-                        <p className="w-full h-[15px] text-sm text-[#bb94e5] text-center font-semibold">YOUR NEW MARKETING WEBSITE</p>
+                        <p className="w-full h-[15px] text-sm text-[#bb94e5] text-center font-semibold">Smart Digital Growth | Result-Based Marketing | Business Automation</p>
                         <h1 className="w-full max-w-200 h-[132px] sm:h-[88px] md:h-[158px] text-[38px] md:text-[68px] text-white text-center leading-tight "> 
                         <Typewriter options={{ 
                             strings: [ "Digital Ka Saath <br/> Aapke Business Ka Vikas"],
@@ -42,10 +43,13 @@ function First(){
                     </div>
 
                     <div className="flex flex-col items-center justify-between w-full max-w-125 h-[172px] sm:h-35 md:h-37">
-                        <p className="w-full  text-[18px] text-[#c7cbd4] text-center  font-semibold">We specialize in crafting data-driven digital campaigns that captivate your audience.</p>
+                        <p className="w-full  text-[18px] text-[#c7cbd4] text-center  font-semibold">Bihar aur Jharkhand ke business ke liye powerful digital growth solutions.
+                            Result Pe Focus. Growth Pe Action. </p>
 
-                        <div className="flex justify-center items-center w-full max-w-52 h-14 px-5 py-[18px] bg-[#6430C0] rounded-2xl">    
-                            <p className="w-full text-white text-center text-[16px]">Get This Template -</p>
+                        <div className="flex justify-center items-center w-full max-w-63 h-14 px-5 py-[18px] bg-[#6430C0] rounded-2xl gap-1">
+                               
+                            <Link href={"https://wa.me/919939862765"} className="w-full text-white text-center text-[16px] font-semibold">Book Free Strategy Call</Link>
+                            <img src="whatsapp.gif" className='size-7' alt="" /> 
                         </div>
 
                     </div>

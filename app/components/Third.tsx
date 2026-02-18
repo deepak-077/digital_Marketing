@@ -4,15 +4,16 @@ import { ScrollHighlightText } from "./Animation"
 function Third(){
     return(
         <div className=" flex justify-center ">
-            <div className="flex flex-col md:flex-row md:gap-3 lg:justify-between items-center w-full max-w-300 h-[954px] sm:h-full sm:max-h-[1100px] md:h-auto lg:h-192.5 px-5 py-15 md:py-25">
+            <div className="flex flex-col md:flex-row gap-2 md:gap-3 lg:justify-between items-center w-full max-w-300 h-[954px] sm:h-full sm:max-h-[1100px] md:h-auto lg:h-192.5 px-5 py-15 md:py-25">
             
             {/* Left part */}
-            <img src="one.jpg" alt="" className="w-auto md:w-[440px] h-auto lg:w-135 lg:h-143 rounded-4xl"/>
+            <img src="one.jpeg" alt="" className="w-auto md:w-[440px] h-auto lg:w-135 lg:h-143 rounded-4xl"/>
 
             {/* Right part */}
             <div className="flex flex-col w-full md:max-w-135 h-[496px] lg:h-auto gap-3 sm:h-auto sm:gap-4 md:h-auto md:gap-5 lg:justify-between">
-                <p className="w-full font-semibold text-[#6430c0]">DIGITAL MAGIC</p>
-                <h2 className="w-full text-[32px] lg:text-[46px] font-semibold leading-none ">Elevate Your Business with Our Marketing Expertise</h2>
+                
+                <h2 className="w-full text-[32px] lg:text-[46px] font-semibold leading-none ">GDAs Ko Kyu Choose Kare ?</h2>
+                <p className="w-full font-semibold text-[#6430c0]"> Kyu GDAs Hai Aapke Business Ke Liye Perfect Partner?</p>
                 
                 <ScrollHighlightText className="text-[18px]">    
                     Our digital marketing agency is dedicated to transforming online potential into tangible success, 
