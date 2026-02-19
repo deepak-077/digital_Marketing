@@ -1,11 +1,11 @@
 const details=[
     {
-        img:"phone.gif",
+        img:"call.gif",
         method:"CALL US ",
         detail:"xxxxxx7739 "
     },
     {
-        img:"mail.gif",
+        img:"email.gif",
         method:" EMAIL US",
         detail:"ganeshadigiads@gmail.com "
     },

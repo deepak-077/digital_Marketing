@@ -1,6 +1,16 @@
 "use client"
 
-import { ScrollHighlightText } from "./Animation"
+const reasons= [
+    { title:"Local Market Ki Samajh" },
+    { title:"Affordable Pricing for Small Businesses" },
+    { title:"Monthly Transparent Reporting" },
+    { title:"Personal Support" },
+    { title:"Trained in Advanced Meta Ads (IIT Delhi Certified)" },
+    { title:"Bharat Visionary Leader (State Star in Digital Advertising – 2026)"},
+]
+
+import { title } from "process"
+
 function Third(){
     return(
         <div className=" flex justify-center ">
@@ -13,20 +23,18 @@ function Third(){
             <div className="flex flex-col w-full md:max-w-135 h-[496px] lg:h-auto gap-3 sm:h-auto sm:gap-4 md:h-auto md:gap-5 lg:justify-between">
                 
                 <h2 className="w-full text-[32px] lg:text-[46px] font-semibold leading-none ">GDAs Ko Kyu Choose Kare ?</h2>
-                <p className="w-full font-semibold text-[#6430c0]"> Kyu GDAs Hai Aapke Business Ke Liye Perfect Partner?</p>
+                <p className="w-full font-semibold text-[#6430c0] text-[18px]"> Kyu GDAs Hai Aapke Business Ke Liye Perfect Partner?</p>
                 
-                <ScrollHighlightText className="text-[18px]">    
-                    Our digital marketing agency is dedicated to transforming online potential into tangible success, 
-                    offering a dynamic blend of creativity and strategic expertise to elevate your brand in the digital realm.
-                </ScrollHighlightText>
-                
-                <div className="flex justify-center w-51 px-5 py-[18px] bg-[#6430c0] rounded-2xl">
-                    <span className="w-full text-white font-semibold">
-                        Get This Template -
-                    </span>
+                <div>
+                    {reasons.map((item,index)=>(
+                        <div className="flex items-center font-semibold text-[18px]">    
+                            <img className="size-8" src="tick.gif" alt="" />
+                            <p>{item.title}</p>
+                        </div>
 
+                    ))}
                 </div>
-
+        
             </div>
             </div>
         </div>

@@ -44,13 +44,13 @@ function Footer(){
                     <h5 className="text-[22px] md:text-[19px] font-semibold">Contact</h5>
                     
                     <div className="w-full flex justify-center md:justify-start items-center gap-2">
-                        <img className="size-12" src="phone.gif" alt="" />
+                        <img className="size-12" src="call.gif" alt="" />
 
                         <p>Number </p>
                     </div>
 
                     <div className="w-full flex justify-center md:justify-start items-center gap-2">
-                        <img className="size-12" src="mail.gif" alt="" />
+                        <img className="size-12" src="email.gif" alt="" />
 
                         <p>Mail Id </p>
                     </div>
@@ -60,7 +60,6 @@ function Footer(){
 
                         <p>Address </p>
                     </div>
-
 
                 </div>
 
