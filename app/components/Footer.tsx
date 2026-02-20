@@ -56,7 +56,7 @@ function Footer(){
                     </div>
 
                     <div className="w-full flex justify-center md:justify-start items-center gap-2">
-                        <img className="size-12" src="location.gif" alt="" />
+                        <img className="size-12" src="loc.gif" alt="" />
 
                         <p>Address </p>
                     </div>

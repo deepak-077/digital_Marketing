@@ -10,7 +10,7 @@ const details=[
         detail:"ganeshadigiads@gmail.com "
     },
     {
-        img:"location.gif",
+        img:"loc.gif",
         method:"VISIT US ",
         detail:" Nucleus Mall,Circular Road Ranchi,Jharkhand (834001)  "
     },
@@ -19,79 +19,83 @@ const details=[
 
 export default function Contact(){
     return(
-        <div className="flex flex-col items-center w-full max-w-[1470px] h-[944px] p-2.5">
+        <div className="flex flex-col items-center w-full max-w-[1470px] h-[944px] p-2.5 gap-10">
 
             <div className="w-[770px] h-[140px] p-2.5">
-                <h3 className="text-[39px] h-[42px] w-full mb-[16px] font-bold">LET'S CONNECT</h3>
-                <h2 className="font-semibold">We’d love to hear from you.
+
+                <div className="flex items-center h-[42px]">
+                    <h3 className="text-[39px] h-[42px] mb-4 font-bold">LET'S CONNECT</h3>
+                    <img className="size-15" src="link.gif" alt="" />
+
+                </div>
+                
+                <h2 className="font-semibold text-[#6430c0]">We’d love to hear from you.
                 <br/>let’s create something together.</h2>
             </div>
 
-            <div className="flex ">
+            <div className="flex gap-5">
                 {/* left component */}
-                <div className="w-[450x] h-[680px] px-4 pb-4 gap-3 border border-amber-400">
+                <div className="flex flex-col justify-center w-[450px] h-[620px] p-4 gap-3">
                     {details.map((item,index)=>(
-                        <div className="flex justify-center items-center w-[420px] h-auto bg-[#F8F8F9] p-[5px] rounded-4xl">
-                            <div className="flex flex-col items-center w-[400px] h-auto  bg-[#FFFFFF] text-black gap-1 rounded-4xl p-2.5">
+                        <div className="flex justify-center items-center w-[420px] h-auto bg-[#F8F8F9] p-[5px] rounded-4xl text-center">
+                            <div className="flex flex-col items-center w-[420px] h-auto  bg-[#FFFFFF] text-black gap-1 rounded-4xl p-2.5">
                             <img className="size-[80px]" src={item.img} alt="" />
                             <h1>{item.method}</h1>
                             <h3>{item.detail}</h3>
 
                         </div>
-
-
-                        </div>
-                        
+                        </div>                        
                     ))}
                     
                 </div>
 
                 {/* right component */}
-                <div className="w-[808px] h-[680px] border border-amber-500 ">
+                <div className="flex justify-center items-center w-[800px] h-[620px] bg-[#F8F8F9] p-[5px] rounded-4xl ">
 
+                    <div className="w-[728px] h-[600px] p-10 flex flex-col gap-5 bg-[#FFFFFF] rounded-4xl">
+                        <h2 className="text-[30px] font-bold text-center">TAKE YOUR BUSINESS TO NEW HEIGHTS!</h2>
+                        <h2 className="text-[18px] text-center font-semibold text-[#6430c0]">Start your journey by filling out the form!</h2>
 
-                    {/* info fields */}
-                    <div className="w-[686px] h-[410px] ">
+                        <div className="h-0.5 bg-[#707070]"></div>
+
+                        {/* info fields */}
+                        <div className="w-full flex flex-col justify-center max-w-[686px] h-[350px] ">
+
+                            <div className="flex ">
+                                <div className="w-full max-w-[342px] h-[60px] mb-[25px] px-5">
+                                    <input className="w-full max-w-[302px] h-[60px] px-5 py-[7px] border-2 border-[#6430c0] rounded-4xl " type="text" placeholder="Your Name / Business Name ..."/>
+                                </div>
+
+                                <div className="w-full max-w-[342px] h-[60px] mb-[25px] px-5">
+                                    <input className="w-full max-w-[302px] h-[60px] px-5 py-[7px] border-2 border-[#6430c0] rounded-4xl " type="text" placeholder="Phone / WhatsApp Number ..."/>
+                                </div>
+                            </div>
+
+                            <div className="flex">
+                                <div className="w-full max-w-[342px] h-[60px] mb-[25px] px-5">
+                                    <input className="w-full max-w-[302px] h-[60px] px-5 py-[7px] border-2 border-[#6430c0] rounded-4xl " type="text" placeholder="Email ..."/>
+                                </div>
+
+                                <div className="w-full max-w-[342px] h-[60px] mb-[25px] px-5">
+                                    <input className="w-full max-w-[302px] h-[60px] px-5 py-[7px] border-2 border-[#6430c0] rounded-4xl " type="text" placeholder="City ..."/>
+                                </div>
+                            </div>
+
+                            <div className="w-full  h-[60px] mb-[25px] px-5">
+                                <input className="w-full h-[60px] px-5 py-[7px] border-2 border-[#6430c0] rounded-4xl " type="text" placeholder="Select Services ..."/>
+
+                            </div>
+
+                            <div className="w-full  h-[50px] mb-[25px] px-5 relative text-white text-[18px]">
+                                <img className="absolute size-8 top-[20%] left-[41%]" src="send.svg" alt="" />
+                                <button className="w-full h-[50px] px-5 py-[7px] border-2 bg-[#6430c0] rounded-4xl font-bold hover:cursor-pointer ">Send </button>
+                            </div>
+
+                        </div>
 
                     </div>
-
-
                 </div>
 
-                {/* modify this */}
-                {/* <div className="w-full lg:max-w-290 h-auto md:h-164 flex flex-col gap-5 md:flex-row  md:justify-between p-[5px] rounded-4xl">
-                    
-                    {details.map((item,index)=>(    
-                        <div className="w-full max-w-143 h-164 flex flex-col justify-between bg-[#F8F8F9] p-[5px] rounded-4xl ">
-
-                            <div className="w-full h-105 flex flex-col justify-between bg-[#FFFFFF] p-[30px] rounded-4xl">
-                                <h3 className="text-[26px] font-semibold">{item.name}</h3>
-                                <p className="text-[18px]">{item.desc}</p>
-                                <h3 className="text-[44px] font-semibold text-[#6430c0]">{item.monthly_price}</h3>
-                                <p className="text-[18px] font-semibold">{item.yearly_price}</p>
-
-                                <div className="w-full h-[118px] flex flex-col justify-between">
-                                    <button className="w-full h-14 bg-[#6430c0] text-white rounded-2xl font-semibold">Get This Plan-</button>
-                                    <button className="w-full h-13 border-2 border-[#6430c0] text-[#6430c0] rounded-2xl font-semibold">Talk To an Expert</button>
-                                </div>
-                                
-                            </div>
-
-                            <div className="w-full h-48 flex flex-col justify-between p-[25px]">
-                                    
-                                {item.features.map((feature,index)=>(
-                                    <div className="flex gap-2 items-center text-[20px]">
-                                        <img src="tick.png" alt="" className="size-5 "/>
-                                        <p >{feature}</p>
-                                    </div>
-                                ))}
-                            </div>
-
-                    
-                        </div>
-                    ))}
-                    
-                </div> */}
             </div>
 
 
