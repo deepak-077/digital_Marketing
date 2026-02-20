@@ -18,7 +18,7 @@ function Sixth(){
 
                         <div className="w-full md:max-w-125 h-auto lg:h-[238px] flex flex-col gap-3 md:justify-between">
                             <p className="w-full text-[#BB94E5] font-semibold text-center md:text-left">GLOBAL VENTURES INC.</p>
-                            <h2 className="text-[32px] sm:text-[36px] md:text-[40px] lg:text-[46px] text-wrap leading-tight text-center md:text-left">Data-Driven Dominance</h2>
+                            <h2 className="text-[32px] sm:text-[36px] md:text-[40px] lg:text-[46px] text-wrap leading-tight text-center md:text-left font-semibold">Transparent Monthly Reports</h2>
                             <p className="text-[18px] text-center md:text-left">See the power of data in action as we break down how analytics-driven decisions led to a surge in campaign effectiveness.</p>
                         </div>
 
@@ -57,7 +57,7 @@ function Sixth(){
 
                         <div className=" w-full md:max-w-125 h-auto lg:h-[238px] flex flex-col gap-3 md:justify-between ">
                             <p className="w-full text-[#BB94E5] font-semibold text-center md:text-left">TECH INNOVATE CO.</p>
-                            <h2 className="text-[32px] sm:text-[36px] md:text-[40px] lg:text-[46px] text-wrap leading-tight text-center md:text-left">SEO Success Blueprint</h2>
+                            <h2 className="text-[32px] sm:text-[36px] md:text-[40px] lg:text-[46px] text-wrap leading-tight text-center md:text-left font-semibold">SEO Success Blueprint</h2>
                             <p className="text-[18px] text-center md:text-left">Witness the impact of our SEO strategies as we unveil the rise in organic traffic and search engine rankings for our clients.</p>
                         </div>
 
