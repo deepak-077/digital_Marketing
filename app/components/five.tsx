@@ -7,7 +7,7 @@ function Five(){
             <div className="flex flex-col md:flex-row gap-2 md:gap-3 lg:justify-between items-center w-full max-w-300 h-[954px] sm:h-full sm:max-h-[1100px] md:h-auto lg:h-192.5 px-5 py-15 md:py-25">
             
             {/* Left part */}
-            <img src="IIT_Delhi.jpg" alt="" className="w-auto md:w-[440px] h-auto lg:w-135 lg:h-143 rounded-4xl"/>
+            <img src="iit.jpg" alt="" className="w-auto md:w-[440px] h-auto lg:w-135 lg:h-143 rounded-4xl"/>
 
             {/* Right part */}
             <div className="flex flex-col w-full md:max-w-135 h-[464px] gap-3 sm:h-auto sm:gap-4 md:h-auto md:gap-5 lg:h-auto">

@@ -27,35 +27,30 @@ const services=[
 
 export default function One(){
     return (
-        <div className="flex justify-center w-full h-[1028px] p-10">
+        <div className="flex justify-center w-full h-auto lg:h-[1028px] p-5 md:p-10">
 
-            <div className="flex flex-col w-[1260px] h-[928px] gap-5">
+            <div className="flex flex-col w-full max-w-[1260px] h-auto lg:h-[928px] gap-5">
 
-                <div className="w-[1060px] h-[98px] p-2.5">
-                    <h2 className="h-[50px] text-[39px] font-bold  ">WHAT WE OFFER</h2>
-                    <h2 className="text-[18px] font-semibold">We’re here to help turn your ideas into something amazing.</h2>
+                <div className="flex flex-col gap-4 w-full max-w-[1060px] h-auto lg:h-[108px] p-2.5 text-center md:text-left">
+                    <h2 className="h-auto md:h-[50px] text-[32px] md:text-[39px] font-bold leading-tight">WHAT WE OFFER</h2>
+                    <h2 className="text-[18px] font-semibold leading-tight">We’re here to help turn your ideas into something amazing.</h2>
                 </div>
 
-                <div className="grid grid-cols-3 gap-5">
+                <div className="grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     {services.map((item,index)=>(
-                        <div className="flex justify-center items-center w-[412px] h-[380px] bg-[#F8F8F9] rounded-4xl">
-                            
-                            <div className="flex flex-col gap-4 w-[382px] h-[348px] m-3.5 p-10 bg-[#FFFFFF] rounded-4xl">
+                        <div className="flex justify-center items-center w-full max-w-[412px] h-auto lg:h-[380px] bg-[#F8F8F9] rounded-4xl">
+       
+                            <div className="flex flex-col gap-4 w-full max-w-[382px] h-auto lg:h-[348px] m-3.5 p-5 md:p-10 bg-[#FFFFFF] rounded-4xl">
                                 <img className="size-25" src={item.img} alt="" />
                                 <div className="pt-[15px]">
                                     <h6 className="text-[18px] font-semibold">{item.title}</h6>
-
                                 </div>
-                                
                                 <div>{item.description}</div>
-
                             </div>
                         </div>
                     ))}
                 </div>
-
             </div>
-
         </div>
     )
 }

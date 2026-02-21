@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 
 export default function Offer() {
   const services=[
@@ -30,7 +31,7 @@ export default function Offer() {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
   return (
-    <div className="flex flex-col lg:flex-row h-auto md:min-h-screen items-center justify-center bg-[#f5f4f3] py-10 px-4 gap-5">
+    <div className="flex flex-col lg:flex-row h-auto md:min-h-screen items-center justify-center bg-[#f5f4f3] py-10 md:py-0 px-4 gap-5">
 
       {/* left component */}
       <div className="flex flex-col justify-center items-center md:items-start gap-5 md:gap-7 w-full md:max-w-[576px] h-auto md:h-[252px] p-3">
@@ -40,13 +41,15 @@ export default function Offer() {
           <p className="text-[18px] leading-tight text-center md:text-left">We help businesses grow their online presence and generate real results through data-driven marketing strategies.</p>
         </div>
 
-        <div className="w-[208px] h-[68px] bg-white flex items-center justify-center border-2 border-[#6430C0] rounded-full">
-          <div className="w-[200px] h-[60px] flex bg-white items-center justify-center gap-1 rounded-full p-3 border-2 border-[#6430C0]">
-            <p className="text-[18px] font-semibold"> Get in Touch </p>
-            <img className="size-10 rotate-90" src="up.gif" alt="" />
+        <Link href={"https://wa.me/919939862765"}>
+          <div className="w-[208px] h-[68px] bg-white flex items-center justify-center border-2 border-[#6430C0] rounded-full">
+            <div className="w-[200px] h-[60px] flex bg-white items-center justify-center gap-1 rounded-full p-3 border-2 border-[#6430C0]">
+              <p className="text-[18px] font-semibold"> Get in Touch </p>
+              <img className="size-10 rotate-90" src="up.gif" alt="" />
+            </div>
           </div>
-        </div>
-        
+        </Link>
+
       </div>
         
       

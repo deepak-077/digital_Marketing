@@ -1,10 +1,10 @@
 import { ScrollHighlightText } from "../components/Animation"
 export default function Story(){
     return(
-        <div className=" flex flex-col items-center justify-center w-full h-auto md:h-[928px] text-black px-4 md:px-6">
+        <div className=" flex flex-col items-center justify-center w-full h-auto lg:h-[928px] text-black px-4 md:px-6">
                 <h1 className="text-[36px] md:text-[46px] text-sm text-center font-semibold pb-10 md:pb-6">Our Story(so far)</h1>
 
-                <div className="flex flex-col md:flex-row justify-between w-full max-w-[1124px] h-auto md:h-[720px] md:mt-10" >
+                <div className="flex flex-col items-center md:justify-center md:flex-row gap-5 w-full max-w-[1124px] h-auto lg:h-[720px] md:mt-10" >
 
                     {/* left side - image */}
 
