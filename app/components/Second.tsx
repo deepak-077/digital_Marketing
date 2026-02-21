@@ -14,8 +14,9 @@ const companies=[
 function Second(){
     return(
         <div className="flex justify-center">
-            <div className="flex flex-col items-center w-full lg:max-w-300 p-5 overflow-hidden">
 
+            <div className="flex flex-col items-center w-full lg:max-w-300 p-10 overflow-hidden">
+            
                 <p className="font-bold text-[24px] md:text-[32px] mb-6">TRUSTED BY</p>
                 
                 <section className="relative w-full lg:max-w-248 h-20 overflow-hidden">

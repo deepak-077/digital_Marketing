@@ -3,7 +3,7 @@ import Theme from "./Theme"
 import Story from "./Story"
 import Footer from "../components/Footer"
 import Vision from "./Vision"
-import Stats from "./Stats"
+import Stats from "../components/Stats"
 function AboutPage(){
     return(
         <div>
