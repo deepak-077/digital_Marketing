@@ -10,7 +10,7 @@ function AboutPage(){
             <Theme/>
             <Story/>
             <Vision/>
-            {/* <Stats/> */}
+            <Stats/>
             
 
         </div>

@@ -28,7 +28,7 @@ const cards=[
 
 export default function Vision(){
     return(
-        <div className="flex justify-center items-center w-full h-auto lg:h-[1070px] bg-[#ffffff] p-8">
+        <div className="flex justify-center items-center w-full h-auto lg:h-[1070px] bg-[#ffffff] p-5">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-8 w-full max-w-[1260px] h-auto gap-4 lg:h-[950px] p-[10px]">
                 {cards.map((item,index)=>(
                     <div className="w-full max-w-[300px] h-auto lg:max-w-[412px] md:h-[412px] p-[10px] border rounded-4xl shadow-2xl hover:scale-105">

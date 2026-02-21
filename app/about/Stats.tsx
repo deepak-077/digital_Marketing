@@ -8,13 +8,13 @@ const cards = [
 ];
 export default function Stats(){
     return (
-        <div className="flex justify-center m-10">
+        <div className="flex justify-center p-5">
         {/* Stats */}
-        <div className="flex flex-col md:flex-row items-center w-full lg:max-w-290 h-auto md:h-[150px] gap-5 md:justify-between rounded-4xl">
+        <div className="flex flex-col md:flex-row items-center w-full lg:max-w-290 h-auto md:h-[160px] lg:h-[150px] gap-5 md:justify-between rounded-4xl">
 
             {/* cards */}
             {cards.map((item,index)=>(        
-                <div className="w-full md:max-w-[278px] h-[150px] p-[30px] flex flex-col justify-between bg-[#ffffff] shadow-2xl rounded-3xl hover:scale-110">
+                <div className="w-full md:max-w-[278px] h-auto md:h-[160px] lg:h-[150px] p-[30px] flex flex-col justify-between bg-[#ffffff] shadow-2xl rounded-3xl hover:scale-110">
                 
                     <div className="text-[#6430C0] font-semibold text-center text-[40px]">
                         <CountUpNumber target={item.num} prefix={item.prefix} suffix={item.suffix} />

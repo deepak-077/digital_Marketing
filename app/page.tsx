@@ -23,7 +23,7 @@ export default function Home() {
       <MouseFollow/>
       <First/>
 
-      {/* <Second/> */}
+      <Second/>
       <Offer/>
       
       <Third/>
