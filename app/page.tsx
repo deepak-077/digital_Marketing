@@ -5,8 +5,7 @@ import Second from "./components/Second";
 import Offer from "./components/Offer";
 import Third from "./components/Third";
 import Fourth from "./components/Fourth";
-import Five from "./components/five";
-import Fifth from "./components/Fifth";
+import Fifth from "./components/five";
 import Sixth from "./components/Sixth";
 import Seventh from "./components/Seventh";
 import Eighth from "./components/Eighth";
@@ -28,16 +27,13 @@ export default function Home() {
       
       <Third/>
       <Fourth/>
-      <Five/>
-      
-      {/* fix the width */}
-      {/* <Fifth/> */}
+      <Fifth/>
 
       
       <Sixth/>
 
       {/* complete testimonial page */}
-      {/* <Seventh/> */}
+      <Seventh/>
 
       <Eighth/>
 

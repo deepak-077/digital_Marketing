@@ -1,7 +1,7 @@
 "use client"
 
 import { ScrollHighlightText } from "./Animation"
-function Five(){
+function Fifth(){
     return(
         <div className=" flex justify-center ">
             <div className="flex flex-col md:flex-row gap-2 md:gap-3 lg:justify-between items-center w-full max-w-300 h-[954px] sm:h-full sm:max-h-[1100px] md:h-auto lg:h-192.5 px-5 py-15 md:py-25">
@@ -32,4 +32,4 @@ function Five(){
         </div>
     )
 }
-export default Five
+export default Fifth
