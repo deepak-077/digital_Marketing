@@ -38,7 +38,7 @@ function Tenth(){
     return(
         <div className="flex justify-center h-auto  bg-[#F8F8F9]">
 
-            <div className="flex flex-col gap-10 md:justify-between items-center w-full lg:max-w-300 h-auto py-[100px] md:py-[150px] px-5 ">
+            <div className="flex flex-col gap-10 md:justify-between items-center w-full lg:max-w-300 h-auto py-25 px-5 ">
 
                 {/* First component */}
                 <div className="w-full md:max-w-153 h-35 flex flex-col justify-between">

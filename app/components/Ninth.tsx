@@ -30,7 +30,7 @@ function Ninth(){
     return(
         <div className="flex justify-center h-auto md:h-265">
 
-            <div className="flex flex-col gap-3 md:justify-between items-center w-full max-w-300 h-auto md:h-265 px-2.5 py-25 md:py-[150px] md:px-5">
+            <div className="flex flex-col gap-3 md:justify-between items-center w-full max-w-300 h-auto md:h-265 px-2.5 py-25 md:px-5">
 
                 {/* First component */}
                 <div className="w-full max-w-153 h-auto gap-2 px-2.5 md:px-0 md:h-35 flex flex-col md:justify-between">

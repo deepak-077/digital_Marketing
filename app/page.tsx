@@ -14,8 +14,6 @@ import Tenth from "./components/Tenth";
 import Footer from "./components/Footer";
 import { MouseFollow } from "./components/Animation";
 
-
-
 export default function Home() {
   return (
     <div>
@@ -29,15 +27,13 @@ export default function Home() {
       <Fourth/>
       <Fifth/>
 
-      
       <Sixth/>
-
-      {/* complete testimonial page */}
       <Seventh/>
 
       <Eighth/>
 
-      <Ninth/>
+      {/* pricing not required as of now */}
+      {/* <Ninth/> */}
       <Tenth/>
       
     </div>
