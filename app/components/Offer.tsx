@@ -5,28 +5,32 @@ import Link from "next/link";
 export default function Offer() {
   const services=[
     { img: "web.gif",
-      title: "Website Design & Development",
-      description: "Elevate your brand with stunning web design & development for impactful online experiences."
+      title: "Website & E-Commerce Services",
+      description: "Elevate your brand with stunning web design & development for impactful online experiences.",
+      url:"/services/web"
     },
     { img: "seo.gif",
       title: "Search Engine Optimization",
-      description: "Get found where it matters. I optimize your website and content to increase visibility and attract high-quality organic traffic."
+      description: "Get found where it matters. I optimize your website and content to increase visibility and attract high-quality organic traffic.",
+      url:"/services/web"
     },
     { img: "brand.gif",
       title: "Branding & Promotion",
-      description: "Our team crafts unique brands, drives promotions, and boosts visibility through audience engagement."
+      description: "Our team crafts unique brands, drives promotions, and boosts visibility through audience engagement.",
+      url:"/services/web"
     },
     
     { img: "google.gif",
       title: "Google my Business",
-      description: "Stand out from the competition on the world’s most popular search engine with Google My Business."
+      description: "Stand out from the competition on the world’s most popular search engine with Google My Business.",
+      url:"/services/web"
     },
     { img: "social.gif",
-      title: "Social Media Marketing",
-      description: "Build connections and drive growth with engaging social media campaigns that deliver real results."
+      title: "Social Media & Content Marketing",
+      description: "Build connections and drive growth with engaging social media campaigns that deliver real results.",
+      url:"/services/web"
     },
 ]
-
 
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
@@ -89,6 +93,7 @@ export default function Offer() {
                 <p className="text-black leading-relaxed font-semibold">
                   {item.description}
                 </p>
+                <Link href={item.url} className="text-[19px]">Learn More</Link>
               </div>
             </div>
           );

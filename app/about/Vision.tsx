@@ -23,7 +23,6 @@ const cards=[
      description:"We take the time to understand your business from the top down so we can drive real value. We become a true partner to our client’s business, working across brand, marketing and technology initiatives to help them win.",
      img:"partner.gif"
     },
-
 ]
 
 export default function Vision(){
@@ -45,12 +44,9 @@ export default function Vision(){
                                 {item.description}
                             </div>
                         </div>
-
                     </div>
                 ))}
-
             </div>
-
         </div>
     )
 }

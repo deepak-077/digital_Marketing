@@ -53,7 +53,7 @@ function Seventh(){
             {/* second */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 h-auto lg:h-151 w-full max-w-290 items-start">
                 {reviews.map((item,index)=>(
-                    <div key={index} className="flex flex-col gap-5 w-full max-w-94 bg-[#F8F8F9] p-[30px] rounded-4xl">
+                    <div key={index} className="flex flex-col gap-5 w-full max-w-94 bg-[#F8F8F9] p-[30px] rounded-4xl hover:scale-110">
                         <p className="w-full max-w-79 text-[18px]">{item.review}</p>
                         <div className="h-0.5 w-full bg-[#e3e3e8]"></div>
 
