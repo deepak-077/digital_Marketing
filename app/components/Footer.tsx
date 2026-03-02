@@ -23,7 +23,7 @@ function Footer(){
 
                     <div className="w-56 h-59 flex flex-col gap-4 justify-between ">
                         <div className="flex flex-col gap-5">
-                            <img src="raybanwhite.jpeg" alt="" className="w-30 h-10"/>
+                            <img src="/raybanwhite.jpeg" alt="" className="w-30 h-10"/>
                             <p>Build a powerful agency site with Framer.</p>
                         </div>
                         <p>© Rhone. All rights reserved.</p>
@@ -44,19 +44,19 @@ function Footer(){
                     <h5 className="text-[22px] md:text-[19px] font-semibold">Contact</h5>
                     
                     <div className="w-full flex justify-center md:justify-start items-center gap-2">
-                        <img className="size-12" src="call.gif" alt="" />
+                        <img className="size-12" src="/call.gif" alt="" />
 
                         <p>Number </p>
                     </div>
 
                     <div className="w-full flex justify-center md:justify-start items-center gap-2">
-                        <img className="size-12" src="email.gif" alt="" />
+                        <img className="size-12" src="/email.gif" alt="" />
 
                         <p>Mail Id </p>
                     </div>
 
                     <div className="w-full flex justify-center md:justify-start items-center gap-2">
-                        <img className="size-12" src="loc.gif" alt="" />
+                        <img className="size-12" src="/loc.gif" alt="" />
 
                         <p>Address </p>
                     </div>
@@ -76,15 +76,15 @@ function Footer(){
                     <h5 className="text-[22px] md:text-[19px] font-semibold">Follow Us</h5>
                     <div className="flex justify-center md:justify-start items-center w-full gap-3">
                         <div >
-                            <img src="fb.png" alt="fb" className="size-9"/>
+                            <img src="/fb.png" alt="fb" className="size-9"/>
                         </div>
 
                         <div>
-                            <img src="insta.png" alt="instagram" className="size-10" />
+                            <img src="/insta.png" alt="instagram" className="size-10" />
                         </div>
 
                         <div>
-                            <img src="youtube.png" alt="youtube" className="size-10"/>
+                            <img src="/youtube.png" alt="youtube" className="size-10"/>
                         </div>
                     </div>
 

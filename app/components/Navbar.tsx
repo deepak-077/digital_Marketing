@@ -15,7 +15,7 @@ function Navbar(){
             <div className="flex justify-center items-center w-full max-w-300 h-20 px-2.5 py-5 ">
                 <nav className="flex justify-between items-center w-full max-w-295 h-[47px] px-2.5 py-6 ">
                     {/* logo */}
-                    <img src="gda_logo.png" alt="logo" className="w-40 h-35 rounded-full" />
+                    <img src="/gda_logo.png" alt="logo" className="w-40 h-35 rounded-full" />
 
                     {/* right component - menu */}
                     <div className="hidden  md:flex justify-between items-center w-full max-w-167 h-[47px] ">
