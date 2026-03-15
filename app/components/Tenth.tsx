@@ -70,7 +70,8 @@ function Tenth(){
                             </div>
                         ))}
                     </div>
-                    <button className="w-full h-14 bg-[#6430C0] text-white text-[18px] font-medium rounded-2xl"> Get This Template -</button>
+                         {/* button if needed */}
+                    {/* <button className="w-full h-14 bg-[#6430C0] text-white text-[18px] font-medium rounded-2xl"> Get This Template -</button> */}
                 </div>  
             </div>
         </div>

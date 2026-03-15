@@ -19,12 +19,13 @@ function Fifth(){
                     offering a dynamic blend of creativity and strategic expertise to elevate your brand in the digital realm.
                 </ScrollHighlightText>
                 
-                <div className="flex justify-center w-51 px-5 py-[18px] bg-[#6430c0] rounded-2xl">
+                {/* could be used as button if needed */}
+                {/* <div className="flex justify-center w-51 px-5 py-[18px] bg-[#6430c0] rounded-2xl">
                     <span className="w-full text-white font-semibold">
                         Get This Template -
                     </span>
 
-                </div>
+                </div> */}
 
             </div>
 
