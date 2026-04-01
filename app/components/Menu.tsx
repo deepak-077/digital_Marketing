@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react";
+import Link from "next/link";
 
 function Menu() {
 
@@ -47,12 +48,12 @@ function Menu() {
 
       <div className="flex flex-col items-center">
       
-      <button className="p-3 text-gray-500 w-full font-semibold text-[20px]">HOME</button>
-      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">ABOUT US</button>
-      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">SERVICES</button>
-      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">TRAINING</button>
-      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">BLOG</button>
-      <button className="p-2 text-gray-500 w-full font-semibold text-[20px]">CONTACT US</button>
+      <Link className="p-3 text-gray-500 w-full font-semibold text-[20px]" href={"/"}>HOME</Link>
+      <Link className="p-2 text-gray-500 w-full font-semibold text-[20px]" href={"/about"}>ABOUT US</Link>
+      <Link className="p-2 text-gray-500 w-full font-semibold text-[20px]" href={"/services"}>SERVICES</Link>
+      <Link className="p-2 text-gray-500 w-full font-semibold text-[20px]" href={"/training"}>TRAINING</Link>
+      <Link className="p-2 text-gray-500 w-full font-semibold text-[20px]" href={"/blog"}>BLOG</Link>
+      <Link className="p-2 text-gray-500 w-full font-semibold text-[20px]" href={"/contact"}>CONTACT US</Link>
 
       </div>    
 

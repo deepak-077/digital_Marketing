@@ -12,7 +12,7 @@ const details=[
     {
         img:"loc.gif",
         method:"VISIT US ",
-        detail:" Nucleus Mall,Circular Road Ranchi,Jharkhand (834001)  "
+        detail:" xxxxxxx xxxxxx xxxxxx, New Delhi (110001)  "
     },
     
 ]
