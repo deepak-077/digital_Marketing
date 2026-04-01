@@ -11,7 +11,7 @@ function Footer(){
                 <div className="w-200 h-78 flex flex-col justify-between items-center px-5 md:px-0">
                     <h2 className="text-[40px] sm:text-[56px] md:text-[72px] leading-none text-center">Take your business to the next level.</h2>
                     <p className="text-[18px] text-[#C7CBD4] text-center">Get more insights and reports for your startup and improve the customer relationships.</p>
-                    <div className="h-14 bg-[#6430C0] text-white text-[18px] font-medium rounded-2xl p-5 flex items-center"> Get This Template -</div>
+                    {/* <div className="h-14 bg-[#6430C0] text-white text-[18px] font-medium rounded-2xl p-5 flex items-center"> Get This Template -</div> */}
                 </div>  
 
             </div>
@@ -23,8 +23,8 @@ function Footer(){
 
                     <div className="w-56 h-59 flex flex-col gap-4 justify-between ">
                         <div className="flex flex-col gap-5">
-                            <img src="/raybanwhite.jpeg" alt="" className="w-30 h-10"/>
-                            <p>Build a powerful agency site with Framer.</p>
+                            <img src="/gda_logo.png" alt="" className="w-30 h-30"/>
+                            <p>Build a powerful agency site with Us.</p>
                         </div>
                         <p>© Rhone. All rights reserved.</p>
                         

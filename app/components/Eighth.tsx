@@ -27,7 +27,7 @@ function Eighth(){
 
                     {/* left side */}
                     <div className="flex flex-col gap-4 md:justify-between w-full md:max-w-122.5 h-auto md:h-76 p-4 md:py-10 md:pl-5">
-                        <img src="rayban.png" alt="" className="h-7 w-[140px]"/>
+                        <img src="logo.png" alt="" className="h-7 w-[140px]"/>
 
                         <ScrollHighlightText className="text-[22px] md:text-[28px] leading-tight font-semibold">
                             "Results-driven and a pleasure to work with. Our ROI tripled in just three months!"
