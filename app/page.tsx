@@ -20,7 +20,8 @@ export default function Home() {
       <MouseFollow/>
       <First/>
 
-      <Second/>
+      {/* trusted by section */}
+      {/* <Second/> */}
       <Offer/>
       
       <Third/>

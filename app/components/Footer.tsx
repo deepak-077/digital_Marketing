@@ -6,9 +6,9 @@ function Footer(){
             <div className="w-full flex flex-col">
 
                 {/* First component */}
-            <div className="flex justify-center items-center w-full  h-130 bg-[url(/cover.jpg)] bg-cover bg-center text-white ">
+            <div className="flex justify-center items-center w-full h-auto md:h-130 bg-[url(/cover.jpg)] bg-cover bg-center text-white ">
                 
-                <div className="w-200 h-78 flex flex-col justify-between items-center px-5 md:px-0">
+                <div className="w-full max-w-200 h-auto md:h-78 flex flex-col gap-10 md:justify-between items-center p-5 md:px-0">
                     <h2 className="text-[40px] sm:text-[56px] md:text-[72px] leading-none text-center">Take your business to the next level.</h2>
                     <p className="text-[18px] text-[#C7CBD4] text-center">Get more insights and reports for your startup and improve the customer relationships.</p>
                     {/* <div className="h-14 bg-[#6430C0] text-white text-[18px] font-medium rounded-2xl p-5 flex items-center"> Get This Template -</div> */}
